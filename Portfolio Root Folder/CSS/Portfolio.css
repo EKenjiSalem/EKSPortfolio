@@ -9,7 +9,7 @@ body {
 }
 
 .icon-top {
-  background: green;
+  background: orangered;
 }
 
 .icon-top a {
@@ -40,30 +40,31 @@ body {
 }
 
 .navbar-brand {
-  color: green;
-  border: 3px solid green;
+  color: orangered;
+  border: 3px solid orangered;
   font-size: 30px;
   transition: all 2s;
 }
 
 .navbar-brand:hover {
-  background: #2a9134;
+  background: orange;
   color: #242424;
 }
 
 .navbar-toggler {
-  border: 3px solid #2a9134;
+  border: 3px solid orangered;
   padding: 3px;
 }
 
 /* Mobile Layout */
+/*  orginal background color = #2a9134; */
 .bar1,
 .bar2,
 .bar3 {
   width: 23px;
   height: 3px;
   margin: 5px;
-  background: #2a9134;
+  background: orangered;
   transition: all 0.5s ease;
 }
 
@@ -89,7 +90,7 @@ body {
 }
 
 .nav-link:hover {
-  background: #2a9134;
+  background: orangered;
   color: #f1fffa;
 }
 
@@ -98,21 +99,21 @@ body {
   font-size: 25px;
   padding: 10px 20px!important;
   border-radius: 5px;
-  background: rgba(42, 145, 52, 0.6);
+  background: orangered;
   transition: background 2s ease;
 }
 
 .nav-active:hover {
-  background: #2a9134;
+  background: orange;
 }
 
 .search-btn {
-  background: #2a9134;
+  background: orangered;
   transition: all 1s ease;
 }
 
 .search-btn:hover {
-  color: #2a9134;
+  color: orange;
   background: #191919;
 }
 
@@ -169,7 +170,7 @@ body {
 .banner-btn:hover { 
   font-weight: bold;
   color: black;
-  background: green;
+  background: orangered;
   border-color: black;
   /* The translate slightly lifts up the button when clicked */
   transform: translateY(-7px);
@@ -195,13 +196,13 @@ body {
 .title-underline {
   height: 5px;
   width: 250px;
-  background: #2a9134;
+  background: orangered;
   /* This brings the underline up with the -28px and the 0 auto centers the underline */
   margin: -28px auto 0 auto; 
 }
 
 .title a {
-  color: #2a9134;
+  color: orangered;
   font-size: 30px;
   padding: 0px 10px;
   display: inline-block;
@@ -219,6 +220,9 @@ body {
     text-decoration: underline;
 }
 
+#skils .text {
+  color: orangered;
+}
 
 /* HTML */
 
@@ -359,34 +363,39 @@ body {
 }
 
 .skillborder {
-  background: green;
+  background: orangered;
 }
 
 
 /* Projects */
+
+a {
+  text-decoration: none;
+  color: black;
+}
 
 #gallery .pg {
   text-decoration: underline;
 }
 
 #gallerylist h5, h6 {
-  color: green;
+  color: black;
 }
 
 #gallery1 h5, h6 {
-  color: green;
+  color: black;
 }
 
 #gallery2 h5, h6 {
-  color: green;
+  color: black;
 }
 
 #gallery3 h5, h6 {
-  color: green;
+  color: black;
 }
 
 #projects .portfolioimg {
-  color: green;
+  color: black;
 }
 
 #projects .text-uppercase {
@@ -395,7 +404,7 @@ body {
 }
 
 #projects button {
-  background: #2a9134;
+  background: orangered;
   color: #f1fffa;
   transition: all 1s ease-in-out;
 }
@@ -404,10 +413,15 @@ body {
   background: #242424;
 }
 
+#projects .text {
+  color: orangered;
+}
+
+/* linear-gradient(rgba(181, 75, 14, 0.9), rgba(181, 75, 14, 0.9)); */
 .img-container {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(181, 181, 14, 0.9), rgba(181, 181, 14, 0.9));
+  background: orangered;
 }
 
 .img-container img {
@@ -429,7 +443,7 @@ body {
 /* Current Projects */
 
 #current-project .btn {
-  border: 2px solid green;
+  border: 2px solid orangered;
   color: black;  
 
 }
@@ -502,7 +516,7 @@ body {
 }
 
 #about-form h1 {
-  color: #2a9134;
+  color: orangered;
 }
 
 #about-form .form-control {
@@ -529,8 +543,8 @@ body {
 
 #about-form button:hover {
   background: #f1fffa;
-  border-color: #2a9134;
-  color: #2a9134;
+  border-color: orangered;
+  color: orangered;
 }
 
 
@@ -547,7 +561,7 @@ body {
 .value-icon {
   font-size: 60px;
   color: black;
-  background: #242424;
+  background: orangered;
   padding: 25px 35px;
   border-radius: 50%;
   display: inline-block;
@@ -557,12 +571,12 @@ body {
 
 
 .value:hover .value-icon {
-  background: #2a9134;
+  background: gold;
   transform: scale(1.2);
 }
 
 .value:hover .value-number {
-  background: #242424;
+  background: green;
   color: #f1fffa;
   transform: scale(0.9);
 }
@@ -571,11 +585,15 @@ body {
 /* Education */
 
 #education {
-  background: linear-gradient(rgba(24, 24, 24, 0.7),
-  rgba(42, 145, 52, 0.7)),
+  background: linear-gradient(rgba(145, 52, 24, 0.575),
+  rgba(145, 49, 42, 0.61)),
   /* Photo by Alfons Morales on Unsplash */
   url('../img/education1.jpg')center/cover fixed no-repeat;
-  color: #f1fffa;
+  color: orangered;
+}
+
+#education .text {
+  color: black;
 }
 
 .customer-text h3 {
@@ -609,8 +627,8 @@ body {
 }
 
 #about {
-  background: linear-gradient(rgba(42, 145, 52, 0.3),
- rgba(42, 145, 52, 0.3)),
+  background: linear-gradient(rgba(145, 58, 42, 0.37),
+ rgba(145, 71, 42, 0.719)),
   url('../img/code7.jpg')center/cover fixed no-repeat;
 }
 
@@ -625,12 +643,12 @@ body {
 }
 
 #about .card-header {
-  color: #2a9134;
+  color: orangered;
 }
 
 #about .input-group-text {
-  background: #2a9134;
-  border-color: #2a9134;
+  background: orangered;
+  border-color: orangered;
   color: #242424
 }
 
@@ -644,14 +662,29 @@ body {
 
 .about-btn {
   color: #f1fffa;
-  background: #2a9134;
+  background: orangered;
   transition: all 2s ease-in-out;
 }
 
 .about-btn:hover {
   background: transparent;
-  border-color: #2a9134;
-  color: #2a9134;
+  border-color: orangered;
+  color: orangered;
+}
+
+.contact-btn {
+  color: black;
+  background: orangered;
+}
+
+
+#about .monthpick {
+  text-decoration: underline;
+
+}
+
+#about .bg {
+  background: orangered;
 }
 
 
@@ -662,7 +695,7 @@ footer {
 }
 
 .footer-icons a {
-  color: #2a9134;
+  color: orangered;
   font-size: 25px;
   transition: color 1s ease;
 
